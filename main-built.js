@@ -1,0 +1,1 @@
+$(function(){define("one",[],function(){return a=5,a})}),$(function(){define("two",[],function(){return b=10,b})}),$(function(){define("three",[],function(){return c=15,c})}),$(function(){require(["one","two","three"],function(e,t,n){console.log(e,t,n)})}),define("main",function(){});
